@@ -1,15 +1,14 @@
 #include <LiquidCrystal.h>  // usando a biblioteca LiquidCrystal
 #include "notes.h"
-#include "notes2.h"
 
-#define MESSAGE_1_L1 "xxxx xxxxx"
-#define MESSAGE_1_L2 "xxxxxxxx"
+#define MESSAGE_1_L1 "QUER CASAR"
+#define MESSAGE_1_L2 "COMIGO??"
 
 // definition o the display pins
-const int rs = 6, en = 12, d4 = 8, d5 = 7, d6 = 4, d7 = 2;
-const char buzzer = 10;
-const char yes = 11, no = 3;
-const char ledYes = 13, ledNo = 5;
+const int rs = 9, en = 10, d4 = 5, d5 = 6, d6 = 7, d7 = 8;
+const char buzzer = 2;
+const char yes = 3, no = 4;
+const char ledYes = 12, ledNo = 11;
 // pin configuration
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
